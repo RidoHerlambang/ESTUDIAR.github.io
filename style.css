@@ -1,0 +1,152 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #F2E5E5;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(Gambar/Barcelona.jpg);
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    float: left;
+    color: aquamarine;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #2B3A55;
+    border: 1px solid   black;
+    z-index: 1;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: aquamarine;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration:    underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.tulisan {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #2B3A55;
+    border-radius: 30px;
+    padding: 15px 20px 15px 20px;
+    color: aquamarine;
+}
+
+.tulisan .text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+
+.tulisan .belajar {
+    margin-bottom: 50px;
+}
+
+a.langganan {
+    background-color: #E8C4C4;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    font-size: 50px;
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+}
+
+a.langganan:hover {
+    background-color: bisque;
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 50%;
+}
+
+h2.langganan {
+    background-color: #2B3A55;
+    color: aquamarine;
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #E8C4C4;
+    background-color: #2B3A55;
+    border-radius: 90px;
+}
+
+.kartu-tutor a:hover {
+    opacity: 2;
+}
